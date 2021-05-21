@@ -63,7 +63,7 @@ body, html {
     <a href="#goals" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-certificate"></i> GOALS</a>
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-	<a href="html/comingsoon.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> THE TEAM</a>
+	<a href="html/comingsoon.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> THE TEAM</a>
   </div>
 
   <!-- Navbar on small screens -->
@@ -162,7 +162,9 @@ body, html {
       <img src="assets/houseofcat.gif" style="width:100%" class="w3-hover-opacity" alt="House Of Cats">
     </a>
     </div>
-  <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+    <a href="html/comingsoon.html">
+        <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px" onclick=>LOAD MORE</button>
+    </a>
   </div>
 </div>
 
@@ -202,7 +204,7 @@ body, html {
           </div>
         </div>
         <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-        <button class="w3-button w3-black w3-right w3-section" onclick="alertfunction()">
+        <button class="w3-button w3-black w3-right w3-section" type=submit>
           <i class="fa fa-paper-plane"></i> SEND MESSAGE
         </button>
       </form>
